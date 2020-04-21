@@ -2,15 +2,19 @@ name: Deploy to WordPress.org
 
 on:
   push:
-    branches:
-      - master
+    tags:
+    - "*"
 
 jobs:
-  deploy:
-    name: Deploying Dummy Images
+  tag:
+    name: New tag
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
+    - name: Build
+      run: |
+        npm install
+        npm run build
     - name: WordPress Plugin Deploy
       uses: 10up/action-wordpress-plugin-deploy@master
       env:

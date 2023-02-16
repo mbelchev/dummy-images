@@ -3,7 +3,7 @@
  * Plugin name: Dummy Images
  * Plugin URI: https://github.com/mbelchev/dummy-images
  * Description: This plugin is a generator of customizable dummy images. You can easily select the dimensions, background color, text and text color of the placeholder image.
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: mbelchev
  * Author URI: https://github.com/mbelchev
  * Text Domain: dummy-images
@@ -32,7 +32,7 @@ if ( ! defined( 'DUMMY_IMAGES_SLUG') ) {
 }
 
 if ( ! defined( 'DUMMY_IMAGES_ASSET_VERSION') ) {
-	define( 'DUMMY_IMAGES_ASSET_VERSION', '1.0.1' );
+	define( 'DUMMY_IMAGES_ASSET_VERSION', '1.0.2' );
 }
 
 if ( ! class_exists( __NAMESPACE__ . '\Main' ) ) :

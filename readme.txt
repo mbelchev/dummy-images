@@ -45,6 +45,10 @@ After that, you will find 'Dummy Images' menu in your WordPress admin panel as a
 1. Use the generated dummy image as featured image
 
 == ChangeLog ==
+= 1.0.2 =
+Test plugin compatibility with latest WordPress and PHP
+Updating NPM packages
+
 = 1.0.1 =
 Test plugin compatibility with latest WordPress and PHP
 

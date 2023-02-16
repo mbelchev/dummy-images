@@ -2,7 +2,7 @@
 Contributors: mbelchev
 Tags: dummy, images, image, placeholder, generator, lorem ipsum, dummy content,
 Requires at least: 4.6
-Tested up to: 5.8.3
+Tested up to: 6.1.1
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
